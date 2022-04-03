@@ -1,0 +1,15 @@
+MaterialApp(
+  theme: ThemeData.from(colorScheme: const ColorScheme.light()),
+  darkTheme: ThemeData.from(colorScheme: const ColorScheme.dark()),
+)
+
+// reminder : accentcolor has been deprecated
+
+
+
+MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.purple, colorScheme: ColorScheme.fromSwatch().copyWith( primary: Colors.red ,secondary: Colors.purple)
+      ),
+      home: InputPage(),
+    );

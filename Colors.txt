@@ -1,0 +1,3 @@
+Color(int)
+
+A= transparency(fully opaque or not)
